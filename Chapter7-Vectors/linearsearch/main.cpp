@@ -30,7 +30,7 @@ void fillArray (int array[]){ //since an array is input directly, it is passed b
     }//for
 
     return;
-}//genArray
+}//fillArray
 
 
 
