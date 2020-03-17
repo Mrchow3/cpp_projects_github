@@ -1,6 +1,8 @@
 #include <iostream>
 
 /*
+Arrays are simply pointers to a location in memory and cannot use certain operators
+
 note that when using arrays, 
 the array is passed by reference (a[i] will be modified)
 while the elements are passed by value (a[1] will not be modified) 
