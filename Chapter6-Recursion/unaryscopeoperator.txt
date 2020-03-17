@@ -1,0 +1,16 @@
+/*
+The unary scope resolution operator is used to distinguish between 
+global and local variables when they have the same name.
+The :: operator will always reference the global variable.
+*/
+
+int number = 10;
+
+int main(){
+	double number = 20.5;
+
+	std::cout << number << std::endl;
+	std::cout << ::number << std::endl;
+
+	return 0;
+}

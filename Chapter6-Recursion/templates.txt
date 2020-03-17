@@ -1,0 +1,14 @@
+/*
+Templates are a short hand for creating overloaded functions, but copy each type 
+in memory resulting in long function calls.
+*/
+
+template < typename T > //header for template
+T maximum( T value1, T value2, T value3 ) //note the T is the place holder for the type
+{
+	T maximumValue = value1; //variables can also be templated
+
+	...
+
+	return ...;
+}

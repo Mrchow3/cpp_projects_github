@@ -1,0 +1,6 @@
+//inline functions tell the compiler to create a copy of the body.
+//This copy replaces the function call.
+//This is useful for small functions in which the execution of code is quicker than the function call itself.
+
+inline int cubed(int side){
+	return(pow(side,3)}

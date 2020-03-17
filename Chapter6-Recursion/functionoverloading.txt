@@ -1,0 +1,12 @@
+/*
+Overloaded functions are functions that have same names, but different signatures.
+
+Overloaded functions can have different return types, but if they
+do, they must also have different parameter lists.
+
+Displaying function in output: 
+	__Z6squarei
+	__Z6squared
+	__Z8nothing1ifcRi
+	__Z8nothing2ciRfRd
+*/

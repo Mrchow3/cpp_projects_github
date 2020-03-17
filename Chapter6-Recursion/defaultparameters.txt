@@ -1,0 +1,2 @@
+int rectangle (int length = 10, int width = 10){ //default parameters
+	return(length * width)}

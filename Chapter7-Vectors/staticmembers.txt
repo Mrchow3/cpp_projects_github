@@ -1,0 +1,10 @@
+/*
+class ... {
+	public:
+	static int k;
+...
+};
+
+When a data member inside of a class, all objects share the same value.
+
+*/

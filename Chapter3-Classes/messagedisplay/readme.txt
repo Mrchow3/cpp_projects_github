@@ -1,0 +1,1 @@
+This project explains how default constructors work and how header files work.

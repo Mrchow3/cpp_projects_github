@@ -1,0 +1,6 @@
+/*
+arrays can be declared static as well
+behaves the same way as variables
+*/
+
+static int a[10] = {...};
