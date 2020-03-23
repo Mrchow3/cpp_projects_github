@@ -1,0 +1,7 @@
+sizeof( array ); //returns size of array in bits, works with all dtypes
+
+
+//size_t is the equivalent of an unsigned int
+size_t getSize( double *ptr ){
+	return sizeof( ptr ); //returns size of the pointer
+} 
