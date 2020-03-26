@@ -12,7 +12,7 @@ bool compare(int a, int b){
 }
 
 int main(){
-
+           
     bool (*comparePtr)(int, int){compare}; //creates a pointer to compare that takes two ints and returns a bool
 
     cout <<"Calling *comparePtr: " << *comparePtr << endl; //printing out the return value
